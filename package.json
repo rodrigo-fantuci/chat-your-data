@@ -1,0 +1,23 @@
+{
+    "name": "chat-your-data",
+    "author": "Rodrigo Fantuci (rfantuciq@gmail.com)",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@supabase/supabase-js": "^2.21.0",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.9",
+        "langchain": "^0.0.67",
+        "pdf-parse": "^1.1.1"
+    },
+    "devDependencies": {
+        "prettier": "2.8.8"
+    },
+    "type": "module",
+    "license": "ISC",
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120
+    }
+}
